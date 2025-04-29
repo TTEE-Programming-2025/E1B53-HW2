@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h>  
 #include <conio.h>
 
 int main(void) 
@@ -35,7 +35,7 @@ int main(void)
     }
     while (1) 
     {
-    system("CLS"); 
+    system("CLS"); //清除畫面再印選單 
     printf("  a. 英文字母直角三角形 \n");
     printf("  b. 顯示九九乘法表     \n");
     printf("  c. 離開系統           \n");
