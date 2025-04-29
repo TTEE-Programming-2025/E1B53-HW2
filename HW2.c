@@ -9,7 +9,7 @@ int main(void)
     char option,ch1,ch2;
     int row,col;
     printf("###====###\n"); 
-    while (attempt < 3) 
+    while (attempt < 3) //密碼驗證系統最多嘗試3次 
     {
     printf("請輸入密碼: ");
     scanf("%d", &password);
